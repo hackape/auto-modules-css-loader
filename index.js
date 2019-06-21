@@ -40,7 +40,7 @@ function proxyLoader(...args) {
     optModules = false
   }
 
-  selfLoaderObj.options = { ...selfLoaderObj.options, modules: optModules }
+  selfLoaderObj.options = Object.assign({}, selfLoaderObj.options, { modules: optModules })
 
   return cssLoader.apply(this, args)
 }
