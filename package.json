@@ -1,0 +1,13 @@
+{
+  "name": "auto-modules-css-loader",
+  "version": "1.0.0",
+  "description": "A wrapped css-loader that automatically toggles CSS Modules feature",
+  "main": "index.js",
+  "repository": "https://github.com/hackape/auto-modules-css-loader",
+  "author": "hackape",
+  "license": "MIT",
+  "peerDependencies": {
+    "css-loader": ">=1.0.0",
+    "webpack": "^4.0.0"
+  }
+}
